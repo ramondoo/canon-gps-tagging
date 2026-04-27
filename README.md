@@ -50,7 +50,7 @@
 
 针对我的硬件，执行以下代码
 ```python
-DEVICE_ADDRESS = "31C8F9D7-6944-5768-FB57-A019297A1254"
+DEVICE_ADDRESS = "xxxx"
 async def list_all_characteristics():
 print(f"正在连接设备：{DEVICE_ADDRESS}")
     # 连接设备
@@ -75,7 +75,7 @@ await list_all_characteristics()
 
 得到结果：
 ```text
-正在连接设备：31C8F9D7-6944-5768-FB57-A019297A1254
+正在连接设备：xxxx
 ✅ 连接成功！开始遍历所有服务和特征值...
 
 [服务] UUID: 0000180a-0000-1000-8000-00805f9b34fb
